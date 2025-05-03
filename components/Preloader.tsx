@@ -1,15 +1,22 @@
 'use client';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 
 gsap.registerPlugin(useGSAP);
 
 const Preloader = () => {
     const preloaderRef = useRef<HTMLDivElement>(null);
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
 
     useGSAP(
         () => {
+            if (!isMounted) return;
+
             const tl = gsap.timeline({
                 defaults: {
                     ease: 'power1.inOut',
@@ -37,8 +44,12 @@ const Preloader = () => {
                     '<1',
                 );
         },
-        { scope: preloaderRef },
+        { scope: preloaderRef, dependencies: [isMounted] },
     );
+
+    if (!isMounted) {
+        return null;
+    }
 
     return (
         <div className="fixed inset-0 z-[6] flex" ref={preloaderRef}>
@@ -54,14 +65,17 @@ const Preloader = () => {
             <div className="preloader-item h-full w-[10%] bg-black"></div>
 
             <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
-                <span className="inline-block translate-y-full">T</span>
+                <span className="inline-block translate-y-full">D</span>
+                <span className="inline-block translate-y-full">H</span>
                 <span className="inline-block translate-y-full">A</span>
-                <span className="inline-block translate-y-full">J</span>
                 <span className="inline-block translate-y-full">M</span>
-                <span className="inline-block translate-y-full">I</span>
+                <span className="inline-block translate-y-full">O</span>
+                <span className="inline-block translate-y-full">D</span>
+                <span className="inline-block translate-y-full">H</span>
+                <span className="inline-block translate-y-full">A</span>
                 <span className="inline-block translate-y-full">R</span>
-                <span className="inline-block translate-y-full">U</span>
-                <span className="inline-block translate-y-full">L</span>
+                <span className="inline-block translate-y-full">A</span>
+                <span className="inline-block translate-y-full">N</span>
             </p>
         </div>
     );

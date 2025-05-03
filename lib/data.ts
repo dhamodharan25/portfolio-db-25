@@ -1,20 +1,20 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'dhamodharanbalamurugan@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Dhamodharan, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    // oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+    // upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'github', url: 'https://github.com/dhamodharan25' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/dhamodharan-b-725646229/' },
+    // { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
+    // { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
@@ -35,10 +35,10 @@ export const MY_STACK = {
             name: 'Next.js',
             icon: '/logo/next.png',
         },
-        {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
+        // {
+        //     name: 'Redux',
+        //     icon: '/logo/redux.png',
+        // },
         {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
@@ -51,24 +51,24 @@ export const MY_STACK = {
             name: 'Frammer Motion',
             icon: '/logo/framer-motion.png',
         },
-        {
-            name: 'SASS',
-            icon: '/logo/sass.png',
-        },
-        {
-            name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
-        },
+        // {
+        //     name: 'SASS',
+        //     icon: '/logo/sass.png',
+        // },
+        // {
+        //     name: 'Bootstrap',
+        //     icon: '/logo/bootstrap.svg',
+        // },
     ],
     backend: [
         {
             name: 'Node.js',
             icon: '/logo/node.png',
         },
-        {
-            name: 'Nest.js',
-            icon: '/logo/nest.svg',
-        },
+        // {
+        //     name: 'Nest.js',
+        //     icon: '/logo/nest.svg',
+        // },
         {
             name: 'Express.js',
             icon: '/logo/express.png',
@@ -79,17 +79,21 @@ export const MY_STACK = {
             name: 'MySQL',
             icon: '/logo/mysql.svg',
         },
-        {
-            name: 'PostgreSQL',
-            icon: '/logo/postgreSQL.png',
-        },
+        // {
+        //     name: 'PostgreSQL',
+        //     icon: '/logo/postgreSQL.png',
+        // },
         {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
         },
+        // {
+        //     name: 'Prisma',
+        //     icon: '/logo/prisma.png',
+        // },
         {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
+            name: 'FireBase',
+            icon: '/logo/firebase.svg',
         },
     ],
     tools: [
@@ -97,14 +101,14 @@ export const MY_STACK = {
             name: 'Git',
             icon: '/logo/git.png',
         },
-        {
-            name: 'Docker',
-            icon: '/logo/docker.svg',
-        },
-        {
-            name: 'AWS',
-            icon: '/logo/aws.png',
-        },
+        // {
+        //     name: 'Docker',
+        //     icon: '/logo/docker.svg',
+        // },
+        // {
+        //     name: 'AWS',
+        //     icon: '/logo/aws.png',
+        // },
     ],
 };
 
