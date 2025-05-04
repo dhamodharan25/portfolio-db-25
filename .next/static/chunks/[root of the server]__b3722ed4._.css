@@ -1701,6 +1701,10 @@ body {
 }
 
 @media (width >= 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:justify-center {
     justify-content: center;
   }
@@ -1711,6 +1715,10 @@ body {
 }
 
 @media (width >= 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
   .xl\:w-\[350px\] {
     width: 350px;
   }
