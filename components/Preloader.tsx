@@ -8,14 +8,21 @@ gsap.registerPlugin(useGSAP);
 const Preloader = () => {
     const preloaderRef = useRef<HTMLDivElement>(null);
     const [isMounted, setIsMounted] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(false);
 
     useEffect(() => {
         setIsMounted(true);
+        const checkScreenSize = () => {
+            setIsDesktop(window.innerWidth >= 1024); // lg breakpoint
+        };
+        checkScreenSize();
+        window.addEventListener('resize', checkScreenSize);
+        return () => window.removeEventListener('resize', checkScreenSize);
     }, []);
 
     useGSAP(
         () => {
-            if (!isMounted) return;
+            if (!isMounted || !isDesktop) return;
 
             const tl = gsap.timeline({
                 defaults: {
@@ -44,10 +51,10 @@ const Preloader = () => {
                     '<1',
                 );
         },
-        { scope: preloaderRef, dependencies: [isMounted] },
+        { scope: preloaderRef, dependencies: [isMounted, isDesktop] },
     );
 
-    if (!isMounted) {
+    if (!isMounted || !isDesktop) {
         return null;
     }
 
@@ -64,7 +71,7 @@ const Preloader = () => {
             <div className="preloader-item h-full w-[10%] bg-black"></div>
             <div className="preloader-item h-full w-[10%] bg-black"></div>
 
-            <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
+            <p className="name-text flex text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
                 <span className="inline-block translate-y-full">D</span>
                 <span className="inline-block translate-y-full">H</span>
                 <span className="inline-block translate-y-full">A</span>

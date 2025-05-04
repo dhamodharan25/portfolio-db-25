@@ -71,14 +71,6 @@ const AboutMe = ()=>{
             className: "container",
             ref: container,
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade",
-                    children: "I believe in a user centered design approach, ensuring that every project I work on is tailored to meet the specific needs of its users."
-                }, void 0, false, {
-                    fileName: "[project]/app/_components/AboutMe.tsx",
-                    lineNumber: 57,
-                    columnNumber: 17
-                }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "pb-3 border-b text-muted-foreground slide-up-and-fade",
                     children: "This is me."
@@ -94,7 +86,7 @@ const AboutMe = ()=>{
                             className: "md:col-span-5",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-5xl slide-up-and-fade",
-                                children: "Hi, I'm Tajmirul."
+                                children: "Hi, I'm   Dhamodharan"
                             }, void 0, false, {
                                 fileName: "[project]/app/_components/AboutMe.tsx",
                                 lineNumber: 69,
@@ -112,7 +104,7 @@ const AboutMe = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "slide-up-and-fade",
-                                        children: "I'm a frontend web developer dedicated to turning ideas into creative solutions. I specialize in creating seamless and intuitive user experiences."
+                                        children: "I'm a  web developer who transforms innovative ideas into elegant digital solutions. I excel at crafting intuitive and engaging user experiences that make a lasting impact."
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/AboutMe.tsx",
                                         lineNumber: 75,
@@ -120,7 +112,7 @@ const AboutMe = ()=>{
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mt-3 slide-up-and-fade",
-                                        children: "My approach focuses on creating scalable, high-performing solutions tailored to both user needs and business objectives. By prioritizing performance, accessibility, and responsiveness, I strive to deliver experiences that not only engage users but also drive tangible results."
+                                        children: "I focus on building fast, scalable solutions that meet both user needs and business goals.By keeping performance, accessibility, and responsiveness in mind, I create experiences that connect with users and deliver real results."
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/AboutMe.tsx",
                                         lineNumber: 81,
@@ -366,7 +358,7 @@ const Button = ({ loading, variant, className, children, as = 'link', icon = fal
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 className: buttonClasses,
                 ...props,
-                href: props.href.toString() || '#',
+                href: props.href?.toString() || '#',
                 children: [
                     variant !== 'link' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"
@@ -483,7 +475,6 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@15.2.0_@babel+core@7.26.0_react-dom@19.0.0-rc-66855b96-20241106_react@19.0.0-rc-66_18876d0f6d3185b6119dce0b65d14ea1/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ArrowAnimation$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ArrowAnimation.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Button.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/data.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$gsap$2b$react$40$2$2e$1$2e$1$2f$node_modules$2f40$gsap$2f$react$2f$src$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/@gsap+react@2.1.1/node_modules/@gsap/react/src/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$gsap$40$3$2e$12$2e$5$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/gsap@3.12.5/node_modules/gsap/index.js [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$gsap$40$3$2e$12$2e$5$2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/gsap@3.12.5/node_modules/gsap/ScrollTrigger.js [app-client] (ecmascript)");
@@ -491,7 +482,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
-;
 ;
 ;
 ;
@@ -545,7 +535,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-primary",
-                                        children: "FRONTEND"
+                                        children: "WEB"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 45,
@@ -578,13 +568,13 @@ const Banner = ()=>{
                                     ' ',
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-medium text-foreground",
-                                        children: "Tajmirul"
+                                        children: "Dhamodharan"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 50,
                                         columnNumber: 25
                                     }, this),
-                                    ". A creative Frontend Developer with 3+ years of experience in building high-performance, scalable, and responsive web solutions."
+                                    ". A creative Web Developer with 1+ years of experience in building high-performance, scalable, and responsive web solutions."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/_components/Banner.tsx",
@@ -595,7 +585,7 @@ const Banner = ()=>{
                                 as: "link",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                href: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GENERAL_INFO"].upworkProfile,
+                                href: "https://www.linkedin.com/in/dhamodharan-b-725646229/",
                                 variant: "primary",
                                 className: "mt-9 banner-button slide-up-and-fade",
                                 children: "Hire Me"
@@ -618,7 +608,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                         className: "text-3xl sm:text-4xl font-anton text-primary mb-1.5",
-                                        children: "3+"
+                                        children: "1+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 71,
@@ -643,7 +633,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                         className: "text-3xl sm:text-4xl font-anton text-primary mb-1.5",
-                                        children: "7+"
+                                        children: "5+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 79,
@@ -668,7 +658,7 @@ const Banner = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                         className: "text-3xl sm:text-4xl font-anton text-primary mb-1.5",
-                                        children: "10K+"
+                                        children: "8K+"
                                     }, void 0, false, {
                                         fileName: "[project]/app/_components/Banner.tsx",
                                         lineNumber: 87,

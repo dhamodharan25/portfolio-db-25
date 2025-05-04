@@ -309,7 +309,7 @@ img, video {
   --card-foreground: 0 0% 98%;
   --popover: 0 0% 3.9%;
   --popover-foreground: 0 0% 98%;
-  --primary: 140 100% 47%;
+  --primary: 226 70% 55%;
   --primary-foreground: 0 0% 13%;
   --secondary: 193 100% 47%;
   --secondary-foreground: 0 0% 13%;
@@ -335,6 +335,8 @@ img, video {
 
 * {
   border-color: hsl(var(--border));
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   cursor: none !important;
 }
 
@@ -342,6 +344,9 @@ body {
   background-color: hsl(var(--background));
   font-family: var(--font-roboto-flex);
   color: hsl(var(--foreground));
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -817,6 +822,10 @@ body {
   animation: 1s linear infinite spin;
 }
 
+.resize {
+  resize: both;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1144,8 +1153,8 @@ body {
   line-height: 1;
 }
 
-.text-\[20vw\] {
-  font-size: 20vw;
+.text-\[200px\] {
+  font-size: 200px;
 }
 
 .text-lg {
@@ -1625,10 +1634,6 @@ body {
 
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:text-\[200px\] {
-    font-size: 200px;
   }
 }
 
