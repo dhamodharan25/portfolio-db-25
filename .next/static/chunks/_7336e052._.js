@@ -749,7 +749,7 @@ const Preloader = ()=>{
             setIsMounted(true);
             const checkScreenSize = {
                 "Preloader.useEffect.checkScreenSize": ()=>{
-                    setIsDesktop(window.innerWidth >= 1024); // lg breakpoint
+                    setIsDesktop(window.innerWidth >= 1280); // xl breakpoint for desktop only
                 }
             }["Preloader.useEffect.checkScreenSize"];
             checkScreenSize();
