@@ -1324,6 +1324,10 @@ body {
   transition-duration: 7s;
 }
 
+.ease-in-out {
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
 @keyframes enter {
   from {
     opacity: var(--tw-enter-opacity, 1);
@@ -1360,6 +1364,10 @@ body {
 
 .delay-150 {
   animation-delay: .15s;
+}
+
+.ease-in-out {
+  animation-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
 .first\:\!pt-0:first-child {
