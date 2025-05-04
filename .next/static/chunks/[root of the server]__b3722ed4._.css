@@ -1607,6 +1607,11 @@ body {
   .sm\:text-\[80px\] {
     font-size: 80px;
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (width >= 768px) {
@@ -1669,6 +1674,11 @@ body {
 
   .md\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:hover\:\!opacity-100:hover {
