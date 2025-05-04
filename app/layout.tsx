@@ -40,8 +40,21 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            {/* <!-- Google tag (gtag.js) --> */}
+            <Script 
+                async 
+                src="https://www.googletagmanager.com/gtag/js?id=G-DQ5W9LBG3E"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-DQ5W9LBG3E');
+                `}
+            </Script>
             <GoogleAnalytics gaId="G-DQ5W9LBG3E" />
-            <Script id="hotjar" strategy="afterInteractive">
+            {/* <Script id="hotjar" strategy="afterInteractive">
                 {`(function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                 h._hjSettings={hjid:6380611,hjsv:6};
@@ -50,7 +63,7 @@ export default function RootLayout({
                 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
-            </Script>
+            </Script> */}
             <body
                 className={`${antonFont.variable} ${robotoFlex.variable} antialiased`}
             >
