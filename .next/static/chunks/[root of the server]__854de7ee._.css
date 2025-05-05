@@ -812,6 +812,8 @@ img, video {
 
 * {
   border-color: hsl(var(--border));
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   cursor: none !important;
 }
 
@@ -819,6 +821,9 @@ body {
   background-color: hsl(var(--background));
   font-family: var(--font-roboto-flex);
   color: hsl(var(--foreground));
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -1294,6 +1299,10 @@ body {
   animation: 1s linear infinite spin;
 }
 
+.resize {
+  resize: both;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1621,8 +1630,8 @@ body {
   line-height: 1;
 }
 
-.text-\[20vw\] {
-  font-size: 20vw;
+.text-\[200px\] {
+  font-size: 200px;
 }
 
 .text-lg {
@@ -1792,6 +1801,10 @@ body {
   transition-duration: 7s;
 }
 
+.ease-in-out {
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
 @keyframes enter {
   from {
     opacity: var(--tw-enter-opacity, 1);
@@ -1828,6 +1841,10 @@ body {
 
 .delay-150 {
   animation-delay: .15s;
+}
+
+.ease-in-out {
+  animation-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
 .first\:\!pt-0:first-child {
@@ -2004,6 +2021,11 @@ body {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2067,6 +2089,11 @@ body {
     text-align: right;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -2103,13 +2130,13 @@ body {
   .lg\:justify-between {
     justify-content: space-between;
   }
-
-  .lg\:text-\[200px\] {
-    font-size: 200px;
-  }
 }
 
 @media (width >= 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
   .xl\:w-\[350px\] {
     width: 350px;
   }

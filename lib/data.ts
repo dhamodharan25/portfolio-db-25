@@ -114,6 +114,31 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
+        title: 'MBR Ice Cream',
+        slug: 'mbr-icecream',
+        techStack: [
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Responsive Design',
+        ],
+        thumbnail: '/projects/thumbnail/mbr-icecream.jpg',
+        longThumbnail: '/projects/long/mbr-icecream.jpg',
+        images: [
+            '/projects/images/mbr-1.png',
+            '/projects/images/mbr-2.png',
+            '/projects/images/mbr-3.png',
+        ],
+        liveUrl: 'https://dhamodharan25.github.io/MBR-icecream/',
+        year: 2024,
+        description: `MBR Ice Cream is a visually engaging and responsive static website created for a fictional ice cream brand. It features a clean layout, vibrant product showcases, and smooth navigation that highlights the brand’s variety of flavors and contact details.`,
+        role: `As the sole frontend developer on this personal project, I:<br/>
+        - Designed and developed the full website layout using HTML, CSS, and vanilla JavaScript.<br/>
+        - Implemented a mobile-first responsive design to ensure smooth performance across devices.<br/>
+        - Focused on visual branding by selecting appropriate colors, imagery, and layout for an appealing user experience.<br/>
+        - Deployed the website using GitHub Pages for quick and free hosting.`,
+    },    
+    {
         title: 'MTI Electronics',
         slug: 'mti-electronics',
         liveUrl: 'https://mti-electronics.vercel.app/',
