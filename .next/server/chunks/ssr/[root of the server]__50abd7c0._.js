@@ -270,7 +270,7 @@ const PROJECTS = [
             'JavaScript',
             'Responsive Design'
         ],
-        thumbnail: '/projects/thumbnail/mbr-icecream.jpg',
+        thumbnail: '/projects/thumbnail/MBR-Ice.png',
         longThumbnail: '/projects/long/mbr-icecream.jpg',
         images: [
             '/projects/images/mbr-1.png',
@@ -325,10 +325,8 @@ const PROJECTS = [
       `,
         techStack: [
             'Next.js',
-            'Payload CMS',
             'Tailwind CSS',
             'shadcn',
-            'Swiper.js',
             'React Hook Form',
             'Vercel'
         ],
@@ -344,12 +342,8 @@ const PROJECTS = [
         slug: 'epikcart',
         techStack: [
             'React',
-            'Redux',
-            'React i18n',
             'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration'
+            'Framer Motion'
         ],
         thumbnail: '/projects/thumbnail/epikcart.jpg',
         longThumbnail: '/projects/long/epikcart.jpg',
@@ -414,10 +408,10 @@ const MENU_LINKS = [
         name: 'About Me',
         url: '/#about-me'
     },
-    // {
-    //     name: 'Experience',
-    //     url: '/#my-experience',
-    // },
+    {
+        name: 'Experience',
+        url: '/#my-experience'
+    },
     {
         name: 'Projects',
         url: '/#selected-projects'
@@ -844,6 +838,13 @@ const Preloader = ()=>{
                 lineNumber: 72,
                 columnNumber: 13
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "preloader-item h-full w-[10%] bg-black"
+            }, void 0, false, {
+                fileName: "[project]/components/Preloader.tsx",
+                lineNumber: 73,
+                columnNumber: 13
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "name-text flex text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden",
                 children: [
@@ -852,20 +853,12 @@ const Preloader = ()=>{
                         children: "D"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
-                        lineNumber: 75,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "inline-block translate-y-full",
-                        children: "H"
-                    }, void 0, false, {
-                        fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 76,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "A"
+                        children: "H"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 77,
@@ -873,7 +866,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "M"
+                        children: "A"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 78,
@@ -881,7 +874,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "O"
+                        children: "M"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 79,
@@ -889,7 +882,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "D"
+                        children: "O"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 80,
@@ -897,7 +890,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "H"
+                        children: "D"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 81,
@@ -905,7 +898,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "A"
+                        children: "H"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 82,
@@ -913,7 +906,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "R"
+                        children: "A"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 83,
@@ -921,7 +914,7 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "A"
+                        children: "R"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 84,
@@ -929,16 +922,24 @@ const Preloader = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "inline-block translate-y-full",
-                        children: "N"
+                        children: "A"
                     }, void 0, false, {
                         fileName: "[project]/components/Preloader.tsx",
                         lineNumber: 85,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0_$40$babel$2b$core$40$7$2e$26$2e$0_react$2d$dom$40$19$2e$0$2e$0$2d$rc$2d$66855b96$2d$20241106_react$40$19$2e$0$2e$0$2d$rc$2d$66_18876d0f6d3185b6119dce0b65d14ea1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "inline-block translate-y-full",
+                        children: "N"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Preloader.tsx",
+                        lineNumber: 86,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Preloader.tsx",
-                lineNumber: 74,
+                lineNumber: 75,
                 columnNumber: 13
             }, this)
         ]

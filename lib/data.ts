@@ -122,7 +122,7 @@ export const PROJECTS: IProject[] = [
             'JavaScript',
             'Responsive Design',
         ],
-        thumbnail: '/projects/thumbnail/mbr-icecream.jpg',
+        thumbnail: '/projects/thumbnail/MBR-Ice.png',
         longThumbnail: '/projects/long/mbr-icecream.jpg',
         images: [
             '/projects/images/mbr-1.png',
@@ -177,10 +177,10 @@ export const PROJECTS: IProject[] = [
       `,
         techStack: [
             'Next.js',
-            'Payload CMS',
+            
             'Tailwind CSS',
             'shadcn',
-            'Swiper.js',
+            
             'React Hook Form',
             'Vercel',
         ],
@@ -196,12 +196,10 @@ export const PROJECTS: IProject[] = [
         slug: 'epikcart',
         techStack: [
             'React',
-            'Redux',
-            'React i18n',
+
+           
             'Tailwind CSS',
             'Framer Motion',
-            'debouncing',
-            'Api Integration',
         ],
         thumbnail: '/projects/thumbnail/epikcart.jpg',
         longThumbnail: '/projects/long/epikcart.jpg',

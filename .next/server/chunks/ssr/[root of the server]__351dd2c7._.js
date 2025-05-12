@@ -178,7 +178,7 @@ const PROJECTS = [
             'JavaScript',
             'Responsive Design'
         ],
-        thumbnail: '/projects/thumbnail/mbr-icecream.jpg',
+        thumbnail: '/projects/thumbnail/MBR-Ice.png',
         longThumbnail: '/projects/long/mbr-icecream.jpg',
         images: [
             '/projects/images/mbr-1.png',
@@ -233,10 +233,8 @@ const PROJECTS = [
       `,
         techStack: [
             'Next.js',
-            'Payload CMS',
             'Tailwind CSS',
             'shadcn',
-            'Swiper.js',
             'React Hook Form',
             'Vercel'
         ],
@@ -252,12 +250,8 @@ const PROJECTS = [
         slug: 'epikcart',
         techStack: [
             'React',
-            'Redux',
-            'React i18n',
             'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration'
+            'Framer Motion'
         ],
         thumbnail: '/projects/thumbnail/epikcart.jpg',
         longThumbnail: '/projects/long/epikcart.jpg',
